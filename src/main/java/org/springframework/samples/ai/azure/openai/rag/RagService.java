@@ -34,6 +34,7 @@ public class RagService {
 
     private final AiClient aiClient;
     private final EmbeddingClient embeddingClient;
+
     public RagService(AiClient aiClient, EmbeddingClient embeddingClient) {
         this.aiClient = aiClient;
         this.embeddingClient = embeddingClient;
